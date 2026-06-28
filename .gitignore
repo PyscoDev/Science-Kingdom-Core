@@ -1,0 +1,7 @@
+# General Python/Project Ignores
+__pycache__/
+*.pyc
+
+# Sensitive Data/Configs
+.env
+birthdays.json
