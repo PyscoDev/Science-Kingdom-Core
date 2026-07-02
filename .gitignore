@@ -5,3 +5,6 @@ __pycache__/
 # Sensitive Data/Configs
 .env
 birthdays.json
+
+# Ignore specific folder
+Configurations/

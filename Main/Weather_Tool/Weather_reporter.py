@@ -63,7 +63,7 @@ class WeatherManager:
 #main
 if __name__ == "__main__":
     
-    dotenv_path = "/home/utsav-basu/Desktop/Git_Shared/.env"
+    dotenv_path = "/home/utsavbasu/Desktop/AGI/Git_Shared/Main/.env"
     load_dotenv(dotenv_path)
     api_key = os.getenv("WEATHER_API_KEY")
     if not api_key:
