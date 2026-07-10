@@ -17,13 +17,17 @@ pillow
 networkx
 sympy
 joblib
-beautiful soap
-pytorch
-tensorflow
-transformer
+beautifulsoup4
+torch
+#tensorflow
+transformers
 torchvision
 supervision
 langchain
 requests
 rich
 yt-dlp
+chromadb
+crewai
+aiohttp
+python-magic

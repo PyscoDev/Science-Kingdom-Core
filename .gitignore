@@ -4,7 +4,19 @@ __pycache__/
 
 # Sensitive Data/Configs
 .env
-birthdays.json
+.venv/
+Global/
 
 # Ignore specific folder
 Configurations/
+
+#Ignore file types
+
+*.json
+*.jpeg
+*.avi
+*.txt
+*.html
+
+!requirements.txt
+!README.txt
