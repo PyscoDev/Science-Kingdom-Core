@@ -63,7 +63,11 @@ class WeatherManager:
 #main
 if __name__ == "__main__":
     
-    dotenv_path = "/home/utsavbasu/Desktop/AGI/Git_Shared/.env"
+    #dotenv_path = "/home/utsavbasu/Desktop/AGI/Git_Shared/.env"          changing os lead to path error so changing to relative path
+    
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    dotenv_path = os.path.join(current_dir,'..','..','.env')
+    
     load_dotenv(dotenv_path)
     api_key = os.getenv("WEATHER_API_KEY")
     if not api_key:
