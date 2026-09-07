@@ -1,5 +1,10 @@
 #!/bin/bash
 
+read -r password
+echo "$password" | sudo -S -v
+
+#Remove the above two line if running directly. Added that for automating sudo password entry when prompted.
+
 echo "=== Starting System Upgrade ==="
 echo ""
 

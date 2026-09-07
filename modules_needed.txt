@@ -31,3 +31,4 @@ chromadb
 crewai
 aiohttp
 python-magic
+dotenv
